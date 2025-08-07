@@ -15,14 +15,19 @@
 
 // console.log(10 === 5) // operator like +, -, *, /, ===, <, >, <=, >= 
 
-function createGreeting(userName, message = "Hello"){
-    // console.log(`${userName} ${message}`)
-    return `Hi, I am ${userName}, and I say ${message}`
+// function createGreeting(userName, message = "Hello"){
+//     // console.log(`${userName} ${message}`)
+//     return `Hi, I am ${userName}, and I say ${message}`
 
+// }
+
+// const greeting1 =createGreeting("Max");
+// console.log(greeting1)
+
+// const greeting2 = createGreeting("Santi", "Hola en español")
+// console.log(greeting2)
+
+export default (userName, message) => {
+    console.log("Hello")
+    return userName + message;
 }
-
-const greeting1 =createGreeting("Max");
-console.log(greeting1)
-
-const greeting2 = createGreeting("Santi", "Hola en español")
-console.log(greeting2)
