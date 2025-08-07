@@ -8,7 +8,9 @@
 // console.log(content);
 
 // let userMessage = "Hello World"
-const userMessage = "Hello World"
+// const userMessage = "Hello World"
 
-console.log(userMessage);
-console.log(userMessage);
+// console.log(userMessage);
+// console.log(userMessage);
+
+console.log(10 === 5) // operator like +, -, *, /, ===, <, >, <=, >= 
