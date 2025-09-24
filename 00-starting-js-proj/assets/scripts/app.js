@@ -13,7 +13,7 @@
 // console.log(userMessage);
 // console.log(userMessage);
 
-// console.log(10 === 5) // operator like +, -, *, /, ===, <, >, <=, >= 
+// console.log(10 === 5) // operator like +, -, *, /, ===, <, >, <=, >=
 
 // function createGreeting(userName, message = "Hello"){
 //     // console.log(`${userName} ${message}`)
@@ -55,3 +55,15 @@
 // const user1 = new User("Manuel", 35);
 // console.log(user1);
 // user1.greet();
+
+const hobbies = ["Sports", "Cooking", "Reading"];
+console.log(hobbies[0]);
+
+hobbies.push("Working");
+console.log(hobbies);
+
+const index = hobbies.findIndex((item) => item === "Sports");
+console.log(index)
+
+const editedHobbies = hobbies.map((item) => ({text: item}))
+console.log(editedHobbies)
