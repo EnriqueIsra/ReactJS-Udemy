@@ -69,14 +69,28 @@
 // console.log(editedHobbies)
 
 // ----
-const [firstName, lastName] = ["Enrique", "Torres"]
-console.log(firstName)
-console.log(lastName)
+// const [firstName, lastName] = ["Enrique", "Torres"]
+// console.log(firstName)
+// console.log(lastName)
 
-const {name: userName, age} = {
+// const {name: userName, age} = {
+//     name: "Enrique",
+//     age: 26
+// }
+// console.log(userName)
+// console.log(age)
+    
+const hobbies = ["Sports", "Cooking"]
+const user = {
     name: "Enrique",
     age: 26
 }
-console.log(userName)
-console.log(age)
-    
+const newHobbies = ["Reading"]
+const mergeHobbies = [...hobbies, ...newHobbies]
+console.log(mergeHobbies)
+
+const extendedUser = {
+    ...user,
+    isAdmin: true
+}
+console.log(extendedUser)
