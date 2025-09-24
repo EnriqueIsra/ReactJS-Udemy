@@ -131,10 +131,15 @@
 // }
 // greeter(() => console.log("Hi"))
 
-function init() {
-  function greet() {
-    console.log("Hi!");
-  }
-  greet();
-}
-init();
+// function init() {
+//   function greet() {
+//     console.log("Hi!");
+//   }
+//   greet();
+// }
+// init();
+
+const hobbies = ["Sports", "Cooking"]
+// hobbies = [];
+hobbies.push("Working")
+console.log(hobbies)
